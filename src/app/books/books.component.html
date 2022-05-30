@@ -1,0 +1,86 @@
+<p>books works!</p>
+<p>books works!</p>
+
+
+<div data-role="accordion" data-one-frame="true" data-show-active="true">
+  <div class="frame">
+      <div class="heading">Header 1</div>
+      <div class="content">
+          <div class="p-2">Cur luba manducare? Pol, a bene ionicis tormento...</div>
+          <div class="row">
+            <div class="cell-md-3">
+              <div class="flip-card effect-on-hover flip-horizontal" style="height: 340px; width: 480px">
+                <div class="front">
+                  <div class="img-container">
+                    <img src="https://live.staticflickr.com/65535/49512318088_0a688606e7_z.jpg">
+                  </div>
+
+                </div>
+
+
+                <div class="back">
+                  <div class="img-container">
+                    <img src="https://live.staticflickr.com/65535/49512318903_10d5511915_z.jpg">
+                </div>
+
+                </div>
+              </div>
+
+            </div>
+            <div class="cell-md-3">
+              <div class="textarea autosize no-scroll-vertical"><textarea #ta data-role="textarea" data-chars-counter="#chars-counter" data-chars-counter-template="You enter $1 char(s)" data-role-textarea="true" class="" style="height: 100px;"></textarea><textarea class="fake-textarea" style="height: 100px;"></textarea><button class="button input-clear-button" tabindex="-1" type="button"><span class="default-icon-cross"></span></button></div>
+              <p id="chars-counter">You enter 7 char(s){{ta.value.length}}</p>
+
+            </div>
+            <div class="cell-md-6 h-100">
+              <textarea rows="40" class="h-100" data-role="textarea" data-prepend="<span class='mif-leanpub'></span>"></textarea>
+
+            </div>
+          </div>
+
+
+      </div>
+  </div>
+  <div class="frame active">
+      <div class="heading">Header 2</div>
+      <div class="content">
+          <div class="p-2">Wildly open a starship. Belay, ye small wench- set...</div>
+      </div>
+  </div>
+  <div class="frame">
+      <div class="heading">Header 3</div>
+      <div class="content">
+          <div class="p-2">Bitter turkey can be made tasty by brushing with...</div>
+      </div>
+  </div>
+</div>
+
+
+
+<ul data-role="treeview">
+  <li data-icon="<span class='mif-star-full'></span>" data-caption="Favorites">
+      <ul>
+          <li data-icon="<span class='mif-library'></span>" data-caption="Projects"></li>
+          <li data-icon="<span class='mif-download'></span>" data-caption="Downloads"></li>
+          <li data-icon="<img src='images/desktop.png'>" data-caption="Desktop"></li>
+      </ul>
+  </li>
+  <li data-icon="<span class='mif-onedrive'></span>" data-caption="OneDrive">
+      <ul>
+          <li data-caption="Documents"></li>
+          <li data-caption="Projects" data-collapsed="true">
+              <ul>
+                  <li data-caption="Web"></li>
+                  <li data-caption="Android"></li>
+                  <li data-caption="Windows"></li>
+                  <li data-caption="iOS"></li>
+              </ul>
+          </li>
+      </ul>
+  </li>
+</ul>
+
+
+<mat-slider min="1" max="100" step="1" value="1"></mat-slider>
+
+

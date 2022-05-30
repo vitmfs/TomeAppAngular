@@ -1,0 +1,22 @@
+<div class="example">
+  <ul class="step-list">
+      <li *ngFor="let step of testStepList">
+        <h4>{{ step }}?</h4>
+        <p>
+          {{ step }}{{ step }}{{ step }}{{ step }}{{ step }}
+        </p>
+    </li>
+  </ul>
+</div>
+
+
+<div data-role="wizard">
+  <section *ngFor="let each of testStepList"><div class="page-content">{{ each }}</div></section>
+
+</div>
+
+
+
+
+
+
